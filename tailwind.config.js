@@ -6,9 +6,7 @@ module.exports = {
       center: true,
       padding: "20px",
     },
-    colors: {
-      primary: "#13ce66",
-    },
+    
     extend: {},
   },
   plugins: [],
