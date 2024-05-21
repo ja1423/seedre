@@ -629,6 +629,18 @@ video {
   display: flex;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -793,6 +805,46 @@ video {
   background-color: rgb(234 241 235 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FFE62E17\] {
+  background-color: #FFE62E17;
+}
+
+.bg-\[\'\.\.\/img\/s2\.png\'\] {
+  background-color: '../img/s2.png';
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\.\/\)\] {
+  background-image: url(./);
+}
+
+.bg-\[url\(\.\/img\)\] {
+  background-image: url(./img);
+}
+
+.bg-\[url\(\.\/img\/s2\.png\)\] {
+  background-image: url(./img/s2.png);
+}
+
+.bg-\[url\(\'\.\/img\/s2\.png\'\)\] {
+  background-image: url('./img/s2.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/s2\.png\'\)\] {
+  background-image: url('../img/s2.png');
+}
+
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -843,8 +895,42 @@ video {
   padding-bottom: 1rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.px-28 {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
 .text-left {
   text-align: left;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-start {
